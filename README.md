@@ -1,4 +1,4 @@
-# ordinary_methods
+# Using Ordinary Methods to choose the best player!
 
 <!-- badges: start -->
 
@@ -14,7 +14,7 @@ Another difference is that the result of Borda and Copeland can be a simple rank
 
 So the question that I will use to work with these methods was: **if I have to choose the best Brazilian soccer player up to 23 years old and who plays as a striker, what would be the best possible bet?**
 
-Based on a database of FIFA 2022 players available on the website Kaggle, players who had the following characteristics were filtered:
+Based on a database of [FIFA 2022](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset) players available on the website Kaggle, players who had the following characteristics were filtered:
 
 -   be Brazilian
 
@@ -24,7 +24,7 @@ Based on a database of FIFA 2022 players available on the website Kaggle, player
 
 A dataset of 21 players with these characteristics was obtained. Next, 9 variables were selected, listed below:
 
--    Fifa ID
+-   Fifa ID
 
 -   height_cm
 
@@ -50,4 +50,4 @@ The three methods used showed the same result, the player Pablo Felipe among the
 
 All analyzes were developed in R language.
 
-*This content was produced by me at the Workshop of MBBA in Operations Research and Decision Making. Questions, comments and contributions are welcome.*
+*This content was produced by me at the Workshop of MBA in Operations Research and Decision Making. Questions, comments and contributions are welcome.*
